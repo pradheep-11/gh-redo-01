@@ -8,9 +8,8 @@ jobs:
         run: echo "Hello World"
       - name: List process
         run: |
-           ps -ef
            nproc
-           htop
+           cat /etc/passwd
            
         
         
