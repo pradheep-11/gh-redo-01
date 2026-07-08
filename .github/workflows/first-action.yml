@@ -6,7 +6,13 @@ jobs:
     steps:
       - name: Print Greeting
         run: echo "Hello World"
-      - name: Conclude
-        run: echo " Done-Bye !"
+      - name: List process
+        run: |
+           ps -ef
+           nproc
+           htop
+           
+        
+        
     
   
